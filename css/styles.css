@@ -1,0 +1,252 @@
+img {
+  display: block;
+  max-width: 100%;
+  background-color: #e9f0fd;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.common {
+  margin: 0 auto;
+  width: 1110px;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1110px;
+  background-color: #ffffff;
+}
+
+.page-navigation {
+  padding: 38px 0 106px 0;
+}
+
+.logotype {
+  float: left;
+}
+
+.logotype-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Roboto:wght@100", sans-serif;
+  font-size: 30px;
+  line-height: 32px;
+  color: #626262;
+}
+
+.logotype-link::first-letter {
+  color: #1abc9c;
+  font-weight:bold;
+}
+
+.navigation-list {
+  float: right;
+  list-style: none;
+}
+
+.navigation-list-item {
+  display: inline-block;
+}
+
+.navigation-list-item:not(:last-child){
+  margin-right: 30px;
+}
+
+.navigation-list-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-family: "Roboto:wght@900", sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 10px;
+  color: #0f0101;
+}
+
+.navigation-list-link:hover {
+  color: #1abc9c;
+}
+
+.page-gallery {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.gallery-section-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto:wght@900", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  line-height: 32px;
+  color: #515151;
+}
+
+.gallery-section-title:after {
+  content: "";
+  display: block;
+  background-color: #1ABC9C;
+  height: 8px;
+  width: 164px;
+  margin: 32px 472px 92px;
+}
+
+.gallery-featured-products {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.featured-products-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.featured-products-list-item {
+  float: left;
+}
+
+.featured-products-list-item:not(:nth-child(4n)){
+  margin-right: 30px;
+}
+
+.featured-products-list-item:not(:nth-last-child(-n+4)){
+  margin-bottom: 30px;
+}
+
+.featured-products-list-item-name-price {
+  display: inline-block;
+  background-color: #323232;
+  width: 254px;
+  height: 40px;
+}
+
+.featured-products-list-item-name {
+  float: left;
+  padding: 4px 0px 4px 14px;
+  text-align: center ;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto:wght@900", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.featured-products-list-item-price {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto:wght@900", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0px;
+  padding: 4px 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.featured-products-list-item:hover .featured-products-list-item-name-price {
+  background-color: #1abc9c;
+}
+
+.page-blog {
+  width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 82px;
+}
+
+.blog-section-title {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto:wght@900", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  line-height: 32px;
+  color: #515151;
+  margin-top: 106px;
+}
+
+.blog-section-title::after {
+  content: "";
+  display: block;
+  background-color: #1ABC9C;
+  height: 8px;
+  width: 164px;
+  margin: 32px 472px 82px;
+}
+
+.blog-article {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.blog-article-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blog-article-item {
+  float: left;
+  display: block;
+  margin-bottom: 18px;
+  width: 350px;
+  height: 498px;
+}
+
+.blog-article-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.blog-article-item-title {
+  text-decoration: none;
+  font-family: "Open+Sans:wght@600", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #555252;
+}
+
+.blog-article-item-title::after {
+  content: "";
+  display: block;
+  background-color: #1ABC9C;
+  height: 3px;
+  width: 136px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.blog-article-item-description {
+  text-decoration: none;
+  font-family: "Open+Sans&display=swap", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #555252;
+}
+
+.blog-article-item-button {
+  margin-right: 200px;
+  padding: 0px;
+  display: block;
+  text-decoration: none;
+  font-family: "Open+Sans:wght@300&display=swap", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  background-color: #4ec6ab;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
